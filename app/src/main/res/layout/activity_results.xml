@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView_TotalAnualMei2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/total_anual_MEI"
+        android:textColor="@android:color/background_dark"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_salarioLiquidoMEI" />
+
+    <TextView
+        android:id="@+id/textView_salarioLiquidoMEI2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/label_salarioLiquido_MEI"
+        android:textColor="@android:color/background_dark"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_IRRF_results_MEI" />
+
+    <TextView
+        android:id="@+id/textView_IRRF_results_MEI2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/label_IRRF_MEI"
+        android:textColor="@android:color/background_dark"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_INSS_results_MEI" />
+
+    <TextView
+        android:id="@+id/textView_INSS_results_MEI2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/label_INSS_MEI"
+        android:textColor="@android:color/background_dark"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_salarioBruto_results_MEI" />
+
+    <TextView
+        android:id="@+id/textView_salarioBruto_results_MEI2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/label_salarioBruto_MEI_results"
+        android:textColor="@android:color/background_dark"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+    <TextView
+        android:id="@+id/textView_totalAnualCLT2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/label_totalAnual_CLT"
+        android:textColor="@android:color/background_dark"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_salarioLiquido_CLT" />
+
+    <TextView
+        android:id="@+id/textView_IRRF_results_CLT2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/label_IRRF_results"
+        android:textColor="@android:color/background_dark"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_INSS_results_CLT" />
+
+    <TextView
+        android:id="@+id/textView_INSS_results_CLT2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/label_INSS_CLT"
+        android:textColor="@android:color/background_dark"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_salarioBruto_results_CLT" />
+
+    <TextView
+        android:id="@+id/textView_salarioBruto_results_CLT2"
+        android:layout_width="wrap_content"
+        android:layout_height="18dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/label_salario_bruto_CLT_results"
+        android:textColor="@android:color/background_dark"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/label_resultados"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/label_tela_resultados_CLT"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView_salarioBruto_results_CLT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toEndOf="@+id/textView_salarioBruto_results_CLT2"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/textView_INSS_results_CLT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toEndOf="@+id/textView_INSS_results_CLT2"
+        app:layout_constraintTop_toBottomOf="@+id/textView_salarioBruto_results_CLT" />
+
+    <TextView
+        android:id="@+id/textView_IRRF_results_CLT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toEndOf="@+id/textView_IRRF_results_CLT2"
+        app:layout_constraintTop_toBottomOf="@+id/textView_INSS_results_CLT" />
+
+    <TextView
+        android:id="@+id/textView_salarioLiquido_CLT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toEndOf="@+id/textView_salarioLiquido_CLT2"
+        app:layout_constraintTop_toBottomOf="@+id/textView_IRRF_results_CLT" />
+
+    <TextView
+        android:id="@+id/textView_salarioLiquido_CLT2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/label_salarioLiquido_CLT"
+        android:textColor="@android:color/background_dark"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_IRRF_results_CLT" />
+
+    <TextView
+        android:id="@+id/textView_totalAnualCLT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toEndOf="@+id/textView_totalAnualCLT2"
+        app:layout_constraintTop_toBottomOf="@+id/textView_salarioLiquido_CLT" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/label_MEI_results"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_totalAnualCLT" />
+
+    <TextView
+        android:id="@+id/textView_salarioBruto_results_MEI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toEndOf="@+id/textView_salarioBruto_results_MEI2"
+        app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+    <TextView
+        android:id="@+id/textView_INSS_results_MEI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toEndOf="@+id/textView_INSS_results_MEI2"
+        app:layout_constraintTop_toBottomOf="@+id/textView_salarioBruto_results_MEI" />
+
+    <TextView
+        android:id="@+id/textView_IRRF_results_MEI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toEndOf="@+id/textView_IRRF_results_MEI2"
+        app:layout_constraintTop_toBottomOf="@+id/textView_INSS_results_MEI" />
+
+    <TextView
+        android:id="@+id/textView_salarioLiquidoMEI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toEndOf="@+id/textView_salarioLiquidoMEI2"
+        app:layout_constraintTop_toBottomOf="@+id/textView_IRRF_results_MEI" />
+
+    <TextView
+        android:id="@+id/textView_TotalAnualMei"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toEndOf="@+id/textView_TotalAnualMei2"
+        app:layout_constraintTop_toBottomOf="@+id/textView_salarioLiquidoMEI" />
+
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/id_banner2"
+        ads:layout_constraintBottom_toBottomOf="parent"
+        ads:layout_constraintEnd_toEndOf="parent"
+        ads:layout_constraintStart_toStartOf="parent"
+        ads:layout_constraintTop_toBottomOf="@+id/textView_TotalAnualMei2"></com.google.android.gms.ads.AdView>
+
+</android.support.constraint.ConstraintLayout>

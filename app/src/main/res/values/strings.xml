@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Comparador CLT x MEI</string>
+    <string name="txt_salario_bruto_clt">Informe o Salário Bruto CLT:</string>
+    <string name="btn_comparar">Comparar</string>
+    <string name="salario_bruto_PJ">Informe o Salário Bruto PJ:</string>
+    <string name="label_resultados">Resultados para o Empregado</string>
+    <string name="label_tela_resultados_CLT">CLT:</string>
+    <string name="label_salario_bruto_CLT_results">Salário Bruto: </string>
+    <string name="label_FGTS_CLT_results">FGTS: </string>
+    <string name="label_INSS_CLT">INSS: </string>
+    <string name="label_IRRF_results">IR: </string>
+    <string name="label_salarioLiquido_CLT">Salário Líquido: </string>
+    <string name="label_totalAnual_CLT">Total Anual: </string>
+    <string name="label_MEI_results">MEI:</string>
+    <string name="label_salarioBruto_MEI_results">Salário Bruto: </string>
+    <string name="label_INSS_MEI">DAS (INSS - ICMS/ISS): </string>
+    <string name="label_IRRF_MEI">IR: </string>
+    <string name="label_salarioLiquido_MEI">Salário Líquido: </string>
+    <string name="total_anual_MEI">Total Anual: </string>
+    <string name="id_admob">ca-app-pub-4729635888446528~4416516683</string>
+    <string name="id_banner">ca-app-pub-4729635888446528/1152059093</string>
+    <string name="id_banner2">ca-app-pub-4729635888446528/9420473495</string>
+</resources>
